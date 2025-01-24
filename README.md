@@ -1,30 +1,57 @@
-# project
-Alcruiter
-Alcruiter is an AI-powered resume screening tool designed to empower candidates by pre-assessing their job suitability. It automates resume and job description comparisons to provide clear suitability decisions and personalized feedback. Alcruiter integrates with Gmail and Google Calendar to streamline the hiring process, from sending rejection emails to scheduling interviews through google meet link.
+# AIcruiter 
+or 
 
-**Features**
-Resume and Job Description Comparison: Automates the comparison process to provide suitability decisions.
+**Resume Classifier** is an AI-powered resume screening tool designed to empower candidates by pre-assessing their job suitability. It automates resume and job description comparisons to provide clear suitability decisions and personalized feedback. Additionally, the tool integrates with Gmail and Google Calendar to streamline the hiring process, from sending rejection emails to scheduling interviews through Google Meet.
 
-Personalized Feedback: Offers candidates personalized feedback on their resumes.
+## Features
+- **Resume and Job Description Comparison**: Automates the comparison process to provide suitability decisions.
+- **Personalized Feedback**: Offers candidates personalized feedback on their resumes.
+- **Seamless Integration**: Integrates with Gmail and Google Calendar to handle rejection emails and interview scheduling.
+- **Effort and Time Saving**: Boosts candidates' confidence and clarity while saving their time and effort.
+- **Interview Scheduling**: Automatically sends Google Meet links for interviews if the candidate is shortlisted.
 
-Seamless Integration: Integrates with Gmail and Google Calendar to handle rejection emails and interview scheduling.
+## Technologies Used
+- **Python**
+- **Gmail API**
+- **Google Calendar API**
+- **Groq API**
 
-Effort and Time Saving: Aims to boost candidates' confidence and clarity while saving their time and effort.
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your_username/resume-classifier.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd resume-classifier
+    ```
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-**Usage**
-Run the main script to start the application:
+## Usage
+1. Run the main script to start the application:
+    ```bash
+    python main.py
+    ```
+2. The script will automatically compare resumes against job descriptions and provide suitability decisions.
+3. If a candidate is shortlisted, the script will send a Google Meet link for the interview through email.
 
-python main.py
-Follow the on-screen instructions to upload resumes and job descriptions.
+## Configuration
+1. Update your `config.py` file with the necessary API keys and credentials:
+    ```python
+    GMAIL_API_KEY = 'your_gmail_api_key'
+    GOOGLE_CALENDAR_API_KEY = 'your_google_calendar_api_key'
+    GROQ_API_KEY = 'your_groq_api_key'
+    ```
 
-**Integration with Gmail and Google Calendar**
-To integrate with Gmail and Google Calendar:
+## Contribution
+Feel free to open issues or submit pull requests if you have any suggestions or improvements.
 
-Set up your Google API credentials and enable the Gmail and Calendar APIs.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Update the configuration file with your Google API credentials.
+## Acknowledgments
+- Special thanks to the creators and maintainers of the APIs used in this project.
 
-The tool will handle rejection emails and interview scheduling automatically based on AI analysis.
-
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
