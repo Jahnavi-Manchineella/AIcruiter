@@ -1,5 +1,5 @@
 # AIcruiter 
-or 
+
 
 **Resume Classifier** is an AI-powered resume screening tool designed to empower candidates by pre-assessing their job suitability. It automates resume and job description comparisons to provide clear suitability decisions and personalized feedback. Additionally, the tool integrates with Gmail and Google Calendar to streamline the hiring process, from sending rejection emails to scheduling interviews through Google Meet.
 
